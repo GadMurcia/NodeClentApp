@@ -1,0 +1,97 @@
+[{
+        "idPaso": {
+            "idPaso": {
+                "descripcion": "P1P1",
+                "idPaso": 1,
+                "idTipoPaso": {
+                    "activo": true,
+                    "descripcion": "este es el mas importante",
+                    "idTipoPaso": 1,
+                    "nombre": "tp1"
+                },
+                "nombre": "P1"
+            },
+            "idPasoRequisito": 1,
+            "idRequisito": {
+                "descripcion": "R1R1",
+                "idRequisito": 1,
+                "idTipoRequisito": {
+                    "activo": true,
+                    "descripcion": "requisito obligatorio",
+                    "idTipoRequisito": 1,
+                    "nombre": "tr1"
+                },
+                "nombre": "R1"
+            }
+        },
+        "idProceso": {
+            "descripcion": "PR1PR1",
+            "idProceso": 1,
+            "nombre": "PR1"
+        },
+        "idProcesoDetalle": 1
+    }, {
+        "idPaso": {
+            "idPaso": {
+                "descripcion": "P2P2",
+                "idPaso": 2,
+                "idTipoPaso": {
+                    "activo": true,
+                    "descripcion": "este es un tipo de paso intermedio",
+                    "idTipoPaso": 2,
+                    "nombre": "tp2"
+                },
+                "nombre": "P2"
+            },
+            "idPasoRequisito": 4,
+            "idRequisito": {
+                "descripcion": "R2R2",
+                "idRequisito": 2,
+                "idTipoRequisito": {
+                    "activo": true,
+                    "descripcion": "requisito que es opcional",
+                    "idTipoRequisito": 2,
+                    "nombre": "tr2"
+                },
+                "nombre": "R2"
+            }
+        },
+        "idProceso": {
+            "descripcion": "PR1PR1",
+            "idProceso": 1,
+            "nombre": "PR1"
+        },
+        "idProcesoDetalle": 2
+    }, {
+        "idPaso": {
+            "idPaso": {
+                "descripcion": "P3P3",
+                "idPaso": 3,
+                "idTipoPaso": {
+                    "activo": true,
+                    "descripcion": "este es el ultimo paso",
+                    "idTipoPaso": 3,
+                    "nombre": "tp3"
+                },
+                "nombre": "P3"
+            },
+            "idPasoRequisito": 5,
+            "idRequisito": {
+                "descripcion": "R1R1",
+                "idRequisito": 1,
+                "idTipoRequisito": {
+                    "activo": true,
+                    "descripcion": "requisito obligatorio",
+                    "idTipoRequisito": 1,
+                    "nombre": "tr1"
+                },
+                "nombre": "R1"
+            }
+        },
+        "idProceso": {
+            "descripcion": "PR1PR1",
+            "idProceso": 1,
+            "nombre": "PR1"
+        },
+        "idProcesoDetalle": 3
+    }]
